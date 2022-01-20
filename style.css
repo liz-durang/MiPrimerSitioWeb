@@ -1,0 +1,76 @@
+/*Selector universal*/
+*{
+    /*Color de fondo*/
+    background-color: aqua;
+
+
+    /*color del texto*/
+    color:brown;
+}
+
+
+/*De etiqueta*/
+h1{
+    color: darkorange;
+    border: solid red;
+}
+
+h2{
+    color:palevioletred;
+}
+
+h3{
+    color:peru;
+}
+
+/*De clase*/
+
+.tipografia{
+    
+    /*Tipografía*/
+    font-family: sans-serif;
+
+    /*Tamaño*/
+    font-size:30px;
+
+    /*Peso*/
+    font-weight: 900;
+
+    /*Alineación*/
+    text-align: center;
+}
+
+/*De id*/
+
+#color{
+    /*color*/
+    color:palevioletred;
+}
+
+#link{
+    text-align: center;
+    font-style: oblique;
+}
+
+/*media queries*/
+@media only screen and (max-width: 600px) {
+
+    body{
+        background-color: red;
+    }
+
+    p{
+        color: yellow;
+    }
+}
+
+img, video{
+    /*ancho*/
+    width: 400px;
+    /*altura*/
+    /*height: 400px;*/
+    border: ridge red;
+}
+
+
+
